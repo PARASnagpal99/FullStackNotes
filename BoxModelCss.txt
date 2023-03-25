@@ -1,0 +1,11 @@
+CSS Box Model :
+According to the Box Model , Each and every element on a webPage Can be Seen as a rectangular Box .  Each Box will have a margin , padding , width , height and border . 
+- [ ] Content : text , images etc .
+- [ ] Padding : Transparent Area around the content , inside of the Box .
+- [ ] Border : Goes Around the padding and the content ;
+- [ ] Margin : Space Between Boxes ;
+- [ ] Fill Area : Area That gets filled with background color and background images .
+
+Block elements are the elements which create their own  box while inline elements does not . 
+
+Link : https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
