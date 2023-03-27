@@ -1,0 +1,20 @@
+1.
+    Bind( )
+   The bind method creates a new function and sets the this keyword to the specified object.
+   Syntax : function.bind(thisArg, optionalArguments)
+
+2. 
+   Call ( ) : 
+   The call method sets the this inside the function and immediately executes that function.
+ 
+  The difference between call() and bind() is that the call() sets the this keyword and executes the function immediately and it does not create a new copy of the function,          while  the bind() creates a copy of that function and sets the this keyword.
+
+   Syntax : function.call(thisArg, arg1, agr2, ...) 
+
+   Call() also accepts a comma-separated list of arguments. The general syntax for this is function.call(this, arg1, arg2, ...)
+
+  
+3. Apply() 
+
+The apply() method is similar to call(). The difference is that the apply() method accepts an array of arguments instead of comma separated values.
+Syntax : function.apply(thisArg, [argumentsArr])
